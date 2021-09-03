@@ -49,7 +49,7 @@ Design Explanation
 
 > "...For the new design, ***various modules*** will be split into ***microservices***. and in addition to ***MSSQL***, a ***NoSQL db*** will also be used to store some datasets, as well as ***redis for caching***.." 
 
-From the requirement statement above, I gathered the following:  
+From the requirement statement above, I gathered and designed the following:  
 - Various Modules (not all) would be split off. Meaning some parts of the Monolithic would be left as is. I used an **Azure App Service** to host this. This is a scalable Azure solution that is recommended for Lift-and-Shift migration of Monolithic web apps. This requires an **App Service Plan** where the compute requirements are configured.
 - **Azure Functions** provides serverless compute on Azure. *Logic Apps* does a similar function but doesn't support C# as needed. 
 - Azure hosts a robust **SQL service** which can be used. The **Azure CosmosDB** supports NoSQL as requested by the reachitecture.
