@@ -23,11 +23,11 @@ Scenario
 - A go-live plan (runbook) needs to be created to document all steps that will have to be taken in preparation for going live on the new platform with their website.
 
 **Tasks**
-- [x] * Diagram a serverless architecture (SaaS) on a cloud platform preferably Azure. Keep in mind that the codebase is C# (.NET framework), elaborate on the diagram.
-- [x] * Create a “go live plan” and document the steps that would have to be taken prior to going live on the new environment. Try to be as detailed as possible.
-- [x] * Come up with a CI/CD strategy. Elaborate on the chosen tool.
-- [x] * With IaC (Infra as Code) in mind, propose a tool that can easily be integrated with your proposed environment.
-- [x] * Diagram a serverless architecture with redundancy in mind (multi-region, clustered, etc).
+- [x]  Diagram a serverless architecture (SaaS) on a cloud platform preferably Azure. Keep in mind that the codebase is C# (.NET framework), elaborate on the diagram.
+- [x]  Create a “go live plan” and document the steps that would have to be taken prior to going live on the new environment. Try to be as detailed as possible.
+- [x]  Come up with a CI/CD strategy. Elaborate on the chosen tool.
+- [x]  With IaC (Infra as Code) in mind, propose a tool that can easily be integrated with your proposed environment.
+- [x]  Diagram a serverless architecture with redundancy in mind (multi-region, clustered, etc).
 
 - [x] **Aftercare**: 
 What monitoring tool would you use for the new environment and what metrics would you use? Explain why.
