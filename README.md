@@ -2,8 +2,16 @@
 DevOps Assessment
 ===
 
+<!--ts-->
+   * [Scenario](#Scenario)
+   * [Serverless Solution Design](#Serverless-Solution-Design)
+   * [Design Explanation](#Design-Explanation)
+   * [CICD Solution](#CICD-Solution)
+   * [IaC Tool](#IaC-Tool)
+   * [Go-Live Plan](#Go-Live-Plan)
+   * [Monitoring Tool](#Monitoring-Tool)
+<!--te-->
 
-[TOC]
 
 Scenario
 ---
@@ -21,7 +29,7 @@ Scenario
 - [x] * With IaC (Infra as Code) in mind, propose a tool that can easily be integrated with your proposed environment.
 - [x] * Diagram a serverless architecture with redundancy in mind (multi-region, clustered, etc).
 
-- [ ] **Aftercare**: 
+- [x] **Aftercare**: 
 What monitoring tool would you use for the new environment and what metrics would you use? Explain why.
 ***
 >You have 48hours to provide a github link to your solution, which will contain your well commented scripts for automation deployment etc. It’s important to submit your assigned by the deadline, regardless of the completeness of your solution. No submissions will be accepted after 48 hours.
