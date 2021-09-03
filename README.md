@@ -15,7 +15,7 @@ DevOps Assessment
 
 Scenario
 ---
-:::info
+
 - It has been decided to build out a version 2 of successful retail web application to meet the increasing demands of the customers. The current application currently has a mobile app, a monolithic web app which also exposes an API layer used by the mobile app. The database engine used is Microsoft SQL Server. The application is hosted in house on a windows server. For the new design, various modules will be split into microservices. and in addition to MSSQL, a NoSQL db will also be used to store some datasets, as well as redis for caching.
 - Development is currently done in-house but the process is slow and tedious, the code is built on the local machine of the developer(s) and deployed manually using FTP. There’s a production environment and all testing is done on the local machine of the respective developer.
 
@@ -34,7 +34,7 @@ What monitoring tool would you use for the new environment and what metrics woul
 ***
 >You have 48hours to provide a github link to your solution, which will contain your well commented scripts for automation deployment etc. It’s important to submit your assigned by the deadline, regardless of the completeness of your solution. No submissions will be accepted after 48 hours.
 May the spirit of Wakanda guide you.
-:::
+
 
 
 
